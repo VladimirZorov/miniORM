@@ -28,7 +28,9 @@ public class Main {
 
         Student first1 = studentManager.findFirst(Student.class, "name = 'name2'");
 
-        System.out.println(first1.getId() + " " + first1.getName());
+//        System.out.println(first1.getId() + " " + first1.getName());
+
+
 
         userManager
                 .find(User.class, "age > 18 AND registration_date > '2022-06-06'")
